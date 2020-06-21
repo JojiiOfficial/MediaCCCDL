@@ -21,3 +21,19 @@ A tool to retrieve download URLs for [media.ccc.de](media.ccc.de) videos.
 1 - flag error
 2 - HTTP error
 3 - No URL found
+
+# Examples
+Download a video/audio
+```bash
+wget $(mediacccdl "<URL>" --format mp4/mp3)
+```
+
+Download in german/english
+```bash
+wget $(mediacccdl "<URL>" --lang de/en)
+```
+
+Download a list of videos parallel
+```bash
+cat ccc | parallel wget '$(mediacccdl {})'
+```
