@@ -17,10 +17,10 @@ A tool to retrieve download URLs for [media.ccc.de](media.ccc.de) videos.
 - eng/en
 
 # Exit codes
-0 - no error
-1 - flag error
-2 - HTTP error
-3 - No URL found
+0 - no error <br>
+1 - flag error <br>
+2 - HTTP error <br>
+3 - No URL found <br>
 
 # Examples
 Download a video/audio
