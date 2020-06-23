@@ -1,4 +1,5 @@
 # MediaCCCDl
+(mirrored from [gitlab](https://git.jojii.de/jojii/mediacccdl))
 A tool to retrieve download URLs for [media.ccc.de](media.ccc.de) videos.
 
 # Usage
